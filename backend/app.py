@@ -4,6 +4,6 @@ import re
 
 app = Flask(__name__)
 
-@app.route("/")
+@app.route("/hello")
 def home():
     return "Hello, Flask!"
