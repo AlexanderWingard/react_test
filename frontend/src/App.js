@@ -2,6 +2,10 @@ import React, { useState, useEffect } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+// https://daltontan.com/easiest-way-to-reload-webpack-dev-server-when-other-files-change/30/
+// Shared Element Transitions
+
+
 function App() {
   const [response, setResponse] = useState("");
 
